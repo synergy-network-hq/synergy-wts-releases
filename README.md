@@ -1,6 +1,6 @@
-# Synergy WTS
+# synergy-wts CLI tool
 
-`synergy-wts` is the public Synergy Wallet & Token Creation CLI tool.
+The `synergy-wts` CLI tool is the public-facing community version of the Synergy Address Engine.
 
 This tool allows you to create any of the following assets on the Synergy Testnet-beta:
 
@@ -14,7 +14,7 @@ This tool allows you to create any of the following assets on the Synergy Testne
 
 ## What It Does
 
-`synergy-wts` currently supports:
+The `synergy-wts` CLI tool currently supports:
 
 - Generating community-safe Synergy identities
 - Producing public metadata files and encrypted private-key files
@@ -31,7 +31,7 @@ All generated private key material is written in encrypted form using the CLI’
 
 ## Community Address Types
 
-The following address types are open to the community in `synergy-wts`.
+The following address types are open to the community in the `synergy-wts` CLI tool.
 
 | Prefix | Type | Standard | Purpose |
 | --- | --- | --- | --- |
@@ -158,7 +158,7 @@ Wallet-mode output includes:
 
 ## Token and NFT Creation
 
-`synergy-wts` supports standards-driven token deployment flows for:
+The `synergy-wts` CLI tool supports standards-driven token deployment flows for:
 
 - `STS-9` fungible tokens via `synb1`, `synb2`, `synb3`
 - `STS-NF` NFT collections via `synn1`, `synn2`
@@ -390,7 +390,7 @@ This checks whether the address matches the provided public key.
 
 ## Supported Algorithms
 
-`synergy-wts` supports the same algorithm families exposed by the engine for community-safe generation:
+The `synergy-wts` CLI tool supports the same algorithm families exposed by the engine for community-safe generation:
 
 - `ml-dsa-44`
 - `ml-dsa-65`
