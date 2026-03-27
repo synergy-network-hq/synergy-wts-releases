@@ -1,8 +1,8 @@
 # Synergy WTS
 
-`synergy-wts` is the public Synergy Wallet & Token Standards CLI.
+`synergy-wts` is the public Synergy Wallet & Token Creation CLI tool.
 
-It is the community-facing edition of the Synergy Address Engine. It is intentionally limited to the address families and token standards that community users are allowed to create directly:
+This tool allows you to create any of the following assets on the Synergy Testnet-beta:
 
 - Wallets
 - Fungible tokens
@@ -11,7 +11,6 @@ It is the community-facing edition of the Synergy Address Engine. It is intentio
 - Custom contracts
 - General multisig identities
 
-It does not expose protocol-only address classes.
 
 ## What It Does
 
